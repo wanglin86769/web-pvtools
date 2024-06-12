@@ -1,0 +1,13 @@
+services:
+  webclient:
+    container_name: webclient
+    build:
+      context: ./webclient
+    ports:
+      - '8080:80'
+  proxy:
+    container_name: pvwa 
+    build:
+      context: ./pvwa
+    ports: 
+      - 3000:3000 
