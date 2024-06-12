@@ -2,6 +2,10 @@
 
 ## Version history of web-pvtools
 
+### v0.1.0
+
+- Add Docker deployment support
+
 ### v0.0.1
 
 **Initial version:**

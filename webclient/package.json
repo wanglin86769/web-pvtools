@@ -1,7 +1,7 @@
 {
 	"name": "web-pvtools",
 	"version": "0.1.0",
-	"description": "PV Client Tools for web",
+	"description": "PV client tools for web",
 	"private": true,
 	"type": "module",
 	"scripts": {
