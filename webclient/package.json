@@ -1,0 +1,52 @@
+{
+	"name": "web-pvtools",
+	"version": "0.1.0",
+	"description": "PV Client Tools for web",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+		"format": "prettier --write src/"
+	},
+	"author": "Lin Wang",
+	"license": "MIT",
+	"devDependencies": {
+		"@rushstack/eslint-patch": "^1.10.2",
+		"@vitejs/plugin-vue": "^5.0.4",
+		"@vue/eslint-config-prettier": "^9.0.0",
+		"eslint": "^9.1.1",
+		"eslint-plugin-vue": "^9.25.0",
+		"prettier": "^3.2.5",
+		"vite": "^5.2.10"
+	},
+	"dependencies": {
+		"@fullcalendar/core": "^6.1.11",
+		"@fullcalendar/daygrid": "^6.1.11",
+		"@fullcalendar/interaction": "^6.1.11",
+		"@fullcalendar/timegrid": "^6.1.11",
+		"@fullcalendar/vue3": "^6.1.11",
+		"apexcharts": "^3.49.1",
+		"axios": "^1.6.8",
+		"chart.js": "^4.4.2",
+		"core-js": "^3.37.0",
+		"exceljs": "^4.4.0",
+		"font-awesome": "^4.7.0",
+		"js-file-download": "^0.4.12",
+		"moment": "^2.30.1",
+		"primeflex": "3.3.1",
+		"primeicons": "7.0.0",
+		"primevue": "3.52.0",
+		"prismjs": "^1.29.0",
+		"qs": "^6.12.1",
+		"sass": "^1.75.0",
+		"sass-loader": "^14.2.1",
+		"vue": "^3.4.26",
+		"vue-loading-overlay": "^6.0.4",
+		"vue-router": "^4.3.2",
+		"vue3-apexcharts": "^1.5.3",
+		"vuex": "^4.1.0"
+	}
+}

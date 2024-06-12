@@ -1,0 +1,9 @@
+build
+dist
+node_modules
+.DS_Store
+sassdoc
+
+/idea
+/.idea
+/.sass-cache

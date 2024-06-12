@@ -1,0 +1,51 @@
+.logo {
+	vertical-align: middle; 
+    color: RGB(236, 253, 245);
+	font-weight: bold; 
+	font-size: 1.4em;
+    margin-right: 15px;
+}
+
+.p-menubar {
+    background: RGB(4, 120, 87);
+    position: sticky !important;
+    z-index: 999;
+}
+
+.p-menuitem-text, .p-menuitem-icon, .p-submenu-icon {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: RGB(236, 253, 245);
+}
+
+.p-submenu-list {
+    background: RGB(4, 120, 87);
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+    background: burlywood;
+}
+
+.p-menubar .p-menuitem.p-highlight > .p-menuitem-content {
+    background: burlywood;
+}
+
+.p-menubar .p-menuitem.p-highlight.p-focus > .p-menuitem-content {
+    background: burlywood;
+}
+
+.p-menubar .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content {
+    background: burlywood;
+}
+
+.p-menubar .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content:hover {
+    background: burlywood;
+}
+
+.p-menubar .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+    background: burlywood;
+}
+
+.p-menubar.p-menubar-mobile .p-menubar-button:hover {
+    background: burlywood;
+}

@@ -1,0 +1,19 @@
+.card {
+	border-radius: 5px;
+	background: #ffffff;
+	border: solid 1px #dfe6ee;
+    padding: .8rem;
+    margin-bottom: 1rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &.card-w-title {
+		padding-bottom: 1em;
+	}
+
+	&.no-gutter {
+		margin-bottom: 0;
+	}
+}
