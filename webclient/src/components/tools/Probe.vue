@@ -312,7 +312,7 @@ export default {
 					this.$toast.add({ severity: 'error', summary: 'Failed to put PV value', detail: pv.message });
 					return;
 				}
-				this.pvWrite.pv_name = pv.pv;
+				this.pvWrite.pv_name = pv.name;
 				this.pvWrite.pv_type = pv.pv_type;
 				this.pvWrite.vtype = pv.vtype;
 				this.pvWrite.size = pv.size;
