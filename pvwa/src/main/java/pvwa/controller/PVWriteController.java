@@ -63,7 +63,7 @@ public class PVWriteController
         g.writeStringField("name", name);
         
         PV pv = PVPool.getPV(name);
-        VType value = Utility.asyncRead(pv);
+        VType value = Utility.asyncRead(pv, 100, 50);
                 
         if (value == null) {
             g.writeBooleanField("success", false);
@@ -133,7 +133,7 @@ public class PVWriteController
         }
         
         VType newValue;
-        newValue = Utility.basicRead(pv);
+        newValue = Utility.basicRead(pv, 100, 50);
         
         if (newValue == null) {
             g.writeBooleanField("success", false);

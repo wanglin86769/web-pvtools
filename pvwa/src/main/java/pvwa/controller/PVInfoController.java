@@ -48,7 +48,7 @@ public class PVInfoController
         g.writeStringField("name", name);
         
         PV pv = PVPool.getPV(name);
-        VType value = Utility.basicRead(pv);
+        VType value = Utility.basicRead(pv, 100, 50);
                 
         if (value == null) {
             g.writeBooleanField("success", false);

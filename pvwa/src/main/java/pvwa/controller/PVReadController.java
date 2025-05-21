@@ -110,7 +110,7 @@ public class PVReadController
 
     private String generateJsonForPV(String name) throws Exception {
         PV pv = PVPool.getPV(name);
-        VType value = Utility.asyncRead(pv);
+        VType value = Utility.asyncRead(pv, 100, 50);
 
         final ByteArrayOutputStream buf = new ByteArrayOutputStream();
         final JsonGenerator g = json_factory.createGenerator(buf);
