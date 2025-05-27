@@ -46,32 +46,32 @@ export default {
                     icon: 'pi pi-fw pi-hammer',
                     items: [
                         {
-                            label: 'caget',
+                            label: 'pvget',
                             icon: 'pi pi-fw pi-arrow-circle-down',
                             command: () => {
-                                this.$router.push({ name: 'caget'});
+                                this.$router.push({ name: 'pvget'});
                             }
                         },
                         {
-                            label: 'caput',
+                            label: 'pvput',
                             icon: 'pi pi-fw pi-pen-to-square',
                             disabled: !config.writable,
                             command: () => {
-                                this.$router.push({ name: 'caput'});
+                                this.$router.push({ name: 'pvput'});
                             }
                         },
                         {
-                            label: 'camonitor',
+                            label: 'pvmonitor',
                             icon: 'pi pi-fw pi-desktop',
                             command: () => {
-                                this.$router.push({ name: 'camonitor'});
+                                this.$router.push({ name: 'pvmonitor'});
                             }
                         },
                         {
-                            label: 'cainfo',
+                            label: 'pvinfo',
                             icon: 'pi pi-fw pi-info-circle',
                             command: () => {
-                                this.$router.push({ name: 'cainfo'});
+                                this.$router.push({ name: 'pvinfo'});
                             }
                         },
                         {

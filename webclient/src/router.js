@@ -8,24 +8,24 @@ const routes = [
 		component: () => import('./components/Home.vue')
 	},
     {
-        path: '/caget',
-        name: 'caget',
-        component: () => import('./components/tools/CAGet.vue'),
+        path: '/pvget',
+        name: 'pvget',
+        component: () => import('./components/tools/PVGet.vue'),
     },
     {
-        path: '/caput',
-        name: 'caput',
-        component: () => import('./components/tools/CAPut.vue'),
+        path: '/pvput',
+        name: 'pvput',
+        component: () => import('./components/tools/PVPut.vue'),
     },
     {
-        path: '/camonitor',
-        name: 'camonitor',
-        component: () => import('./components/tools/CAMonitor.vue'),
+        path: '/pvmonitor',
+        name: 'pvmonitor',
+        component: () => import('./components/tools/PVMonitor.vue'),
     },
     {
-        path: '/cainfo',
-        name: 'cainfo',
-        component: () => import('./components/tools/CAInfo.vue'),
+        path: '/pvinfo',
+        name: 'pvinfo',
+        component: () => import('./components/tools/PVInfo.vue'),
     },
     {
         path: '/probe',

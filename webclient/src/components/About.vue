@@ -8,10 +8,10 @@
                 <p>The frontend is a single page application based on Vue.js framework and provides the following PV tools,</p>
                 <ul>
                     <li>PV status monitor</li>
-                    <li>caget</li>
-                    <li>caput</li>
-                    <li>camonitor</li>
-                    <li>cainfo</li>
+                    <li>pvget</li>
+                    <li>pvput</li>
+                    <li>pvmonitor</li>
+                    <li>pvinfo</li>
                     <li>probe</li>
                     <li>StripTool</li>
                     <li>X-Y Plot</li>
@@ -22,7 +22,7 @@
                     <li>Replace Java Servlet with Spring Boot to simplify the REST API code</li>
                     <li>Add "connected" field in WebSocket response to show PV connection status</li>
                     <li>Replace the Base64 encoding array value with raw data to simplify both WebSocket client and server</li>
-                    <li>Add separate REST APIs for caget, caput and cainfo</li>
+                    <li>Add separate REST APIs for pvget, pvput and pvinfo</li>
                 </ul>
                 <h4 style="color: RGB(29,149,243); font-size: 1.2em;">4. MIT license</h4>
                 <p>Institute of High Energy Physics (IHEP) Copyright © 2024</p>

@@ -11,5 +11,5 @@
 **Initial version:**
 
 - Support PV status monitor
-- Support caget, caput, camonitor, cainfo
+- Support pvget, pvput, pvmonitor, pvinfo
 - Support probe, StripTool, X/Y Plot

@@ -9,7 +9,7 @@ https://github.com/ornl-epics/pvws
 The frontend is a single page application based on Vue.js framework and provides the following PV tools,
 
 * PV status monitor
-* caget, caput, camonitor, cainfo
+* pvget, pvput, pvmonitor, pvinfo
 * probe, StripTool, X/Y Plot
 
 The backend is a customized version of pvws including the following modifications,
@@ -17,7 +17,7 @@ The backend is a customized version of pvws including the following modification
 * Replace Java Servlet with Spring Boot to simplify the REST API code
 * Add "connected" field in WebSocket response to show PV connection status
 * Replace the Base64 encoding array value with raw data to simplify both WebSocket client and server
-* Add separate REST APIs for caget, caput and cainfo
+* Add separate REST APIs for pvget, pvput and pvinfo
 
 ![Alt text](webclient/docs/screenshots/home_page.png?raw=true "Title")
 
@@ -142,21 +142,21 @@ PV status monitor
 
 ![Alt text](webclient/docs/screenshots/pv_status_monitor.png?raw=true "Title")
 
-caget
+pvget
 
-![Alt text](webclient/docs/screenshots/caget.png?raw=true "Title")
+![Alt text](webclient/docs/screenshots/pvget.png?raw=true "Title")
 
-caput
+pvput
 
-![Alt text](webclient/docs/screenshots/caput.png?raw=true "Title")
+![Alt text](webclient/docs/screenshots/pvput.png?raw=true "Title")
 
-camonitor
+pvmonitor
 
-![Alt text](webclient/docs/screenshots/camonitor.png?raw=true "Title")
+![Alt text](webclient/docs/screenshots/pvmonitor.png?raw=true "Title")
 
-cainfo
+pvinfo
 
-![Alt text](webclient/docs/screenshots/cainfo.png?raw=true "Title")
+![Alt text](webclient/docs/screenshots/pvinfo.png?raw=true "Title")
 
 probe
 
