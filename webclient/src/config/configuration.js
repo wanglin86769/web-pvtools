@@ -3,6 +3,6 @@ export default {
     webSocketPath: "ws://localhost:3000/pvwa/pv",
     
     localStoragePVList: "webPVToolsPVList",
-    writable: true,
+    writable: false,
     softwareUser: "CSNS (China Spallation Neutron Source)",
 }
