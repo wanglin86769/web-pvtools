@@ -3,7 +3,7 @@
 		<div class="col-12">
 			<div class="card">
 				<div style="text-align: center; color: RGB(29,149,243); font-size: 1.8em; font-weight: bold; margin-bottom: .5em;">
-					CA Put
+					PV Put
 				</div>
 
 				<div style="margin-bottom: 1em;">

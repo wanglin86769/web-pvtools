@@ -3,7 +3,7 @@
 		<div class="col-12">
 			<div class="card">
 				<div style="text-align: center; color: RGB(29,149,243); font-size: 1.8em; font-weight: bold; margin-bottom: .5em;">
-					CA Monitor
+					PV Monitor
 				</div>
 
 				<Toolbar class="mb-0">
