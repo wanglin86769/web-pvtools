@@ -15,10 +15,10 @@ public final class Utility {
 
         // Attempt to read the value from the PV, retrying up to maxRetries times
         for (int attempt = 0; attempt < maxRetries; attempt++) {
+            Thread.sleep(retryDelayMs);
             value = pv.read();
             if (value != null)
                 break;
-            Thread.sleep(retryDelayMs);
         }
         return value;
     }
@@ -29,6 +29,7 @@ public final class Utility {
 
         // Attempt to read the value from the PV, retrying up to maxRetries times
         for (int attempt = 0; attempt < maxRetries; attempt++) {
+            Thread.sleep(retryDelayMs);
             try {
                 value = pv.asyncRead().get(TIMEOUT_IN_MS, TimeUnit.MILLISECONDS);
                 // The value may be null for simulated PVs
@@ -37,7 +38,6 @@ public final class Utility {
             } catch (Exception e) {
                 value = null;
             }
-            Thread.sleep(retryDelayMs);
         }
         return value;
     }
